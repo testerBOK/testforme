@@ -1,0 +1,550 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: changenowio 1.0\n"
+"POT-Creation-Date: 2020-02-15 19:25+0200\n"
+"PO-Revision-Date: 2020-02-23 16:46+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+"X-Poedit-SearchPathExcluded-1: wpcs\n"
+
+#: admin/exopite-simple-options/assets/jquery.fine-uploader.min.js:3
+msgid " request for "
+msgstr " запрос "
+
+#: admin/exopite-simple-options/assets/jquery.fine-uploader.min.js:3
+msgid "Sending "
+msgstr "Отправка "
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:596
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:613
+#: inc/class-changenowio-loader.php:130 inc/class-changenowio-loader.php:136
+msgid "Settings"
+msgstr "Настройки"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:665
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:669
+msgid "Plugin Options"
+msgstr "Основные настройки"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1283
+msgid "ERROR:"
+msgstr "ОШИБКА:"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1284
+msgid "This field class is not available!"
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1341
+msgid "Saving..."
+msgstr "Сохраняем..."
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1341
+msgid "Saved Successfully"
+msgstr "Сохранено"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1354
+msgid "ChangeNow.io Plugin Settings"
+msgstr "Настройки ChangeNow.io"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1359
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1372
+msgid "Save Settings"
+msgstr "Сохранить"
+
+#: admin/exopite-simple-options/fields/attached.php:30
+#, php-format
+msgid "There is no attachment with type %1$s for this %2$s."
+msgstr ""
+
+#: admin/exopite-simple-options/fields/backup.php:39
+msgid "copy-paste your backup string here"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/backup.php:40
+msgid "Are you sure, you want to overwrite existing options?"
+msgstr "Вы уверены? Все текущие изменения будут переписаны."
+
+#: admin/exopite-simple-options/fields/backup.php:40
+msgid "Import a Backup"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/backup.php:44
+msgid "Download Backup"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/backup.php:47
+msgid "Please be sure for reset all of framework options."
+msgstr ""
+
+#: admin/exopite-simple-options/fields/backup.php:48
+msgid "Are you sure, you want to reset all options?"
+msgstr "Вы уверены?"
+
+#: admin/exopite-simple-options/fields/backup.php:48
+msgid "Reset All Options"
+msgstr "Сбросить все настройки"
+
+#: admin/exopite-simple-options/fields/gallery.php:25
+#: inc/lib/class-exopite-meta-boxes.php:572
+msgid "Add to gallery"
+msgstr "Добавить в галерею"
+
+#: admin/exopite-simple-options/fields/gallery.php:26
+#: inc/lib/class-exopite-meta-boxes.php:573
+msgid "Select images for gallery"
+msgstr "Выберите картинки для галереи"
+
+#: admin/exopite-simple-options/fields/gallery.php:27 admin/menu.php:271
+#: inc/lib/class-exopite-meta-boxes.php:574
+msgid "Add"
+msgstr "Добавить"
+
+#: admin/exopite-simple-options/fields/group.php:351
+msgid "Max items:"
+msgstr "Макс:"
+
+#: admin/exopite-simple-options/fields/image.php:77
+msgid "Add Image"
+msgstr "Добавить"
+
+#: admin/exopite-simple-options/fields/typography.php:87
+msgid "Web Safe Fonts"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/typography.php:93
+msgid "Google Fonts"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/typography.php:186
+msgid "Error! Can not load json file."
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:72
+msgid "Drop files here"
+msgstr "Перетащите файлы сюда"
+
+#: admin/exopite-simple-options/fields/upload.php:82
+msgid "Select files"
+msgstr "Выбрать файлы"
+
+#: admin/exopite-simple-options/fields/upload.php:85
+msgid "Upload"
+msgstr "Загрузка"
+
+#: admin/exopite-simple-options/fields/upload.php:89
+msgid "Processing dropped files..."
+msgstr "обработка..."
+
+#: admin/exopite-simple-options/fields/upload.php:107
+#: admin/exopite-simple-options/fields/upload.php:139
+msgid "Cancel"
+msgstr "Отмена"
+
+#: admin/exopite-simple-options/fields/upload.php:109
+msgid "Retry"
+msgstr "Повтор"
+
+#: admin/exopite-simple-options/fields/upload.php:111
+msgid "Delete"
+msgstr "Удвлить"
+
+#: admin/exopite-simple-options/fields/upload.php:120
+msgid "Close"
+msgstr "Закрыть"
+
+#: admin/exopite-simple-options/fields/upload.php:128
+msgid "No"
+msgstr "Нет"
+
+#: admin/exopite-simple-options/fields/upload.php:130
+msgid "Yes"
+msgstr "Да"
+
+#: admin/exopite-simple-options/fields/upload.php:141
+msgid "Ok"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:181
+msgid "Max amount of files: "
+msgstr "Макс кол-во файлов:"
+
+#: admin/exopite-simple-options/fields/upload.php:182
+msgid "Max file upload size: "
+msgstr "Макс размер файла:"
+
+#: admin/exopite-simple-options/fields/video.php:63
+msgid "Add Video"
+msgstr "Добавить видео"
+
+#: admin/menu.php:158
+msgid "General Options"
+msgstr "Основные"
+
+#: admin/menu.php:162
+msgid "Partner's API Key"
+msgstr "Ваш API ключ"
+
+#: admin/menu.php:164
+msgid "Example:"
+msgstr "Пример:"
+
+#: admin/menu.php:164
+msgid "Delete key"
+msgstr "Удалить ключ"
+
+#: admin/menu.php:173
+msgid "Get your personal key here:"
+msgstr "Получите ваш персональный ключ здесь:"
+
+#: admin/menu.php:173
+msgid "Your partner's account on Changenow.io"
+msgstr "Ваш персональный аккаунт Changenow.io"
+
+#: admin/menu.php:177
+msgid "Widget shortcode"
+msgstr "Шорткод виджета"
+
+#: admin/menu.php:180
+#, php-format
+msgid ""
+"Copy this shortcode and place anywhere on website: post, page, text or code "
+"widget. Or just use the <b>Changenow.io Widget</b> on %s"
+msgstr ""
+"Скопируйте этот шорткод и разместите а посте, странице или виджете. Или "
+"просто используйте виджет <b>Changenow.io Widget</b> на %s"
+
+#: admin/menu.php:181
+msgid "Appearance &rarr; Widgets"
+msgstr "странице управления виджетами"
+
+#: admin/menu.php:189 admin/menu.php:302
+msgid "Currency from"
+msgstr "Отправляем"
+
+#: admin/menu.php:190
+msgid "the selected option will be displayed by default on \"You Send\" field"
+msgstr "выбранная валюта будет показана по умолчанию в поле \"Вы отправите\""
+
+#: admin/menu.php:199 admin/menu.php:310
+msgid "Currency to"
+msgstr "Получаем"
+
+#: admin/menu.php:200
+msgid "the selected option will be displayed by default on \"You Get\" field"
+msgstr "выбранная валюта будет показана по умолчанию в поле \"Вы получите\""
+
+#: admin/menu.php:212
+msgid "Image"
+msgstr "Картинка"
+
+#: admin/menu.php:218
+msgid "Show image"
+msgstr "Показывать картинку"
+
+#: admin/menu.php:231
+msgid "Use Changenow.io logo"
+msgstr "Показать логотип Changenow.io"
+
+#: admin/menu.php:232
+msgid "Use custom image"
+msgstr "Показать другую картинку"
+
+#: admin/menu.php:239
+msgid "Select custom image"
+msgstr "Выберите картинку"
+
+#: admin/menu.php:249
+msgid "Per-page settings"
+msgstr "Страницы"
+
+#: admin/menu.php:254
+msgid "Show widget only on selected pages"
+msgstr "Показывать виджет только на страницах, выбранных ниже"
+
+#: admin/menu.php:255
+msgid "If enabled, the settings below will be applied to the widget"
+msgstr ""
+"Если включено, указанные ниже настройки будут применены к виджету на "
+"указанной странице"
+
+#: admin/menu.php:265
+msgid "Select pages"
+msgstr "Выбранные страницы"
+
+#: admin/menu.php:266
+msgid "Settings for page"
+msgstr "Настройки для страницы"
+
+#: admin/menu.php:268
+msgid "Separate settings for selected page"
+msgstr "Отдельные настройки для выбранной страницы"
+
+#: admin/menu.php:278
+msgid "Page"
+msgstr "Страница"
+
+#: admin/menu.php:294
+msgid "Use custom defaults:"
+msgstr "Использовать следующие значения по умолчанию:"
+
+#: admin/menu.php:323
+msgid "Colors and font"
+msgstr "Цвет и шрифт"
+
+#: admin/menu.php:329
+msgid "Global colors"
+msgstr "Общие цвета"
+
+#: admin/menu.php:335
+msgid "Use custom colors"
+msgstr "Использовать другие цвета"
+
+#: admin/menu.php:344
+msgid "Text"
+msgstr ""
+
+#: admin/menu.php:355 admin/menu.php:379 admin/menu.php:403 admin/menu.php:427
+#: admin/menu.php:451 admin/menu.php:475 admin/menu.php:515 admin/menu.php:539
+#: admin/menu.php:570 admin/menu.php:594
+msgid "Use custom"
+msgstr "Использовать выбранный"
+
+#: admin/menu.php:368
+msgid "Background"
+msgstr "Фон"
+
+#: admin/menu.php:392
+msgid "Input/select label"
+msgstr "Текст поля/списка"
+
+#: admin/menu.php:416
+msgid "Input/select background"
+msgstr "Фон поля/списка"
+
+#: admin/menu.php:440
+msgid "Link color"
+msgstr "Цвет ссылок"
+
+#: admin/menu.php:464
+msgid "Link hover color"
+msgstr "Цвет ссылок при наведении"
+
+#: admin/menu.php:491
+msgid "Buttons"
+msgstr "Кнопки"
+
+#: admin/menu.php:500
+msgid "Exchange type buttons"
+msgstr "Выбор типа обмена"
+
+#: admin/menu.php:504 admin/menu.php:559
+msgid "Button label"
+msgstr "Текст на кнопке"
+
+#: admin/menu.php:528 admin/menu.php:583
+msgid "Button background"
+msgstr "Фон кнопки"
+
+#: admin/menu.php:555
+msgid "Action buttons"
+msgstr "Кнопки отправки форм"
+
+#: admin/menu.php:610
+msgid "Font"
+msgstr "Шрифт"
+
+#: admin/menu.php:616
+msgid "Custom font"
+msgstr "Другой шрифт"
+
+#: admin/menu.php:627
+msgid "Use custom font"
+msgstr "Использовать выбранный"
+
+#: inc/class-changenowio-widget.php:13
+msgid "Changenow.io Exchange"
+msgstr ""
+
+#: inc/class-changenowio-widget.php:14
+msgid "Changenow.io cryptocurrency exchange"
+msgstr ""
+
+#: inc/class-changenowio-widget.php:42 inc/shortcodes/exchange-widget.php:135
+msgid "Exchange"
+msgstr "Обменять"
+
+#: inc/class-changenowio-widget.php:47
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: inc/shortcodes/exchange-widget.php:109
+#: inc/shortcodes/exchange-widget.php:153
+msgid "Exchange now"
+msgstr "Обменять"
+
+#: inc/shortcodes/exchange-widget.php:110
+#: inc/shortcodes/exchange-widget.php:154
+msgid "Fixed Rate"
+msgstr "Фиксированный курс"
+
+#: inc/shortcodes/exchange-widget.php:118
+#: inc/shortcodes/exchange-widget.php:159
+#: inc/shortcodes/exchange-widget.php:220
+#: inc/shortcodes/exchange-widget.php:263
+msgid "You send"
+msgstr "Вы отправите"
+
+#: inc/shortcodes/exchange-widget.php:126
+#: inc/shortcodes/exchange-widget.php:166
+#: inc/shortcodes/exchange-widget.php:226
+#: inc/shortcodes/exchange-widget.php:284
+msgid "You get"
+msgstr "Вы получите"
+
+#: inc/shortcodes/exchange-widget.php:134
+#: inc/shortcodes/exchange-widget.php:173
+msgid "Expected rate"
+msgstr "Ожидаемый рейт"
+
+#: inc/shortcodes/exchange-widget.php:144
+msgid "Pre step"
+msgstr "Предварительный шаг"
+
+#: inc/shortcodes/exchange-widget.php:180
+msgid "Please be careful not to provide a smart contract as your"
+msgstr "Пожалуйста, будьте внимательны, не передавайте смарт контракт"
+
+#: inc/shortcodes/exchange-widget.php:180
+msgid "payout address"
+msgstr "в качестве вашего адреса"
+
+#: inc/shortcodes/exchange-widget.php:184
+msgid "Enter the recipient’s"
+msgstr "Укажите адрес"
+
+#: inc/shortcodes/exchange-widget.php:184
+msgid "address"
+msgstr "получателя"
+
+#: inc/shortcodes/exchange-widget.php:185
+msgid "+ Add refund address"
+msgstr "+ Добавить адрес для возврата"
+
+#: inc/shortcodes/exchange-widget.php:185
+msgid "Remove refund address"
+msgstr "Удалить адрес для возврата"
+
+#: inc/shortcodes/exchange-widget.php:195
+msgid "Payment ID"
+msgstr "ID платежа"
+
+#: inc/shortcodes/exchange-widget.php:195
+msgid "(optional)"
+msgstr "(не обязательно)"
+
+#: inc/shortcodes/exchange-widget.php:204
+msgid "Enter"
+msgstr "Укажите"
+
+#: inc/shortcodes/exchange-widget.php:204
+#: inc/shortcodes/exchange-widget.php:236
+msgid "refund address"
+msgstr "адрес возврата"
+
+#: inc/shortcodes/exchange-widget.php:213
+msgid ""
+"In case something goes wrong during the exchange, we might need a refund "
+"address so we can return your coins back to you"
+msgstr ""
+"Если во процессе обмена что-то пойдет не так, нам может потребоваться адрес "
+"возврата, чтобы мы могли вернуть вам ваши средства"
+
+#: inc/shortcodes/exchange-widget.php:215
+msgid "Next"
+msgstr "Далее"
+
+#: inc/shortcodes/exchange-widget.php:233
+msgid "estimated arrival"
+msgstr "расчетное время доставки"
+
+#: inc/shortcodes/exchange-widget.php:233
+msgid "minutes"
+msgstr "мин"
+
+#: inc/shortcodes/exchange-widget.php:240
+#: inc/shortcodes/exchange-widget.php:295
+msgid "destination tag"
+msgstr ""
+
+#: inc/shortcodes/exchange-widget.php:248
+msgid "I've read and agree to"
+msgstr "Я прочитал и согласен:"
+
+#: inc/shortcodes/exchange-widget.php:248
+msgid "Terms of Use"
+msgstr "Условия использования"
+
+#: inc/shortcodes/exchange-widget.php:248
+msgid "and"
+msgstr "и"
+
+#: inc/shortcodes/exchange-widget.php:248
+msgid "Privacy Policy"
+msgstr "Политика конфиденциальности"
+
+#: inc/shortcodes/exchange-widget.php:254
+msgid "Confirm"
+msgstr "Подтверждение"
+
+#: inc/shortcodes/exchange-widget.php:265
+#: inc/shortcodes/exchange-widget.php:291
+msgid "to address"
+msgstr "на адрес"
+
+#: inc/shortcodes/exchange-widget.php:279
+msgid "tx id"
+msgstr ""
+
+#: inc/shortcodes/exchange-widget.php:304
+msgid "Awaiting payment"
+msgstr "Ожидание оплаты"
+
+#: inc/shortcodes/exchange-widget.php:308
+msgid "Waiting for exchange"
+msgstr "Ожидание обмена"
+
+#: inc/shortcodes/exchange-widget.php:312
+msgid "Sent to your wallet"
+msgstr "Отправить на ваш кошелек"
+
+#: inc/shortcodes/exchange-widget.php:315
+#: inc/shortcodes/exchange-widget.php:316
+msgid "Error during exchange."
+msgstr "Возникла ошибка в процессе обмена."
+
+#: inc/shortcodes/exchange-widget.php:315
+msgid ""
+"Funds for this transaction will be returned to the sender's address or the "
+"specified refund address."
+msgstr ""
+"Средства по этой транзакции будут возвращены на адрес отправителя или на "
+"указанный адрес."
+
+#: inc/shortcodes/exchange-widget.php:316
+msgid "Please contact support."
+msgstr "Пожалуйста, свяжитесь со службой поддержки."
+
+#: inc/shortcodes/exchange-widget.php:317
+msgid "Exchange completed."
+msgstr "Обмен завершен."

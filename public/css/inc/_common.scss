@@ -1,0 +1,14 @@
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+button[disabled]:hover,
+html input[disabled]:hover,
+.step-one-btn[disabled],
+button[disabled],
+html input[disabled] {
+    cursor: default;
+    opacity: .3;
+}

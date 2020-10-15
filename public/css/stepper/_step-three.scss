@@ -1,0 +1,296 @@
+@import '../vars.scss';
+
+.step-three {
+  display: none;
+
+  .mb-20 {
+    margin-bottom: 20px;
+  }
+
+  .step-body {
+    line-height: 120%;
+    display: flex;
+    flex-direction: column;
+    .send-info-status {
+      display: flex;
+      flex-direction: column;
+      height: 50%;
+      .text-info {
+        margin-right: 60px;
+        flex: 2;
+      }
+      .send-info-container {
+        display: flex;
+      }
+      .time-info {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        .timer {
+          min-width: 115px;
+          font-weight: 500;
+          font-size: 40px;
+          margin-right: 8px;
+        }
+        .payment-timer-info {
+          display: flex;
+          flex-direction: column;
+          font-size: 14px;
+          font-weight: 500;
+          color: $primary-color;
+        }
+        .timer {
+          color: $default-theme-color;
+        }
+      }
+    }
+    .qr-code-image {
+      flex: 1;
+      max-width: 190px;
+      > img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .payment-title {
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #929EAA;
+      display: inline-block;
+    }
+    .send-deatils {
+      margin-bottom: 12px;
+      .send-amount,
+      .send-currency {
+        line-height: 120%;
+        font-weight: bold;
+        font-size: 40px;
+        text-transform: uppercase;
+      }
+      .send-amount {
+        margin-right: 8px;
+      }
+    }
+    .send-address,
+    .payin-extra-id {
+      line-height: 120%;
+      font-weight: 500;
+      font-size: 24px;
+      color: $primary-color;
+      word-break: break-all;
+    }
+
+    .get-info-status {
+      height: 50%;
+      .transaction-info {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        .trainsaction-id {
+          margin-right: 20px;
+        }
+      }
+      .get-deatils {
+        margin-bottom: 25px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        color: $primary-color;
+        .get-rate {
+          margin-right: 8px;
+        }
+        .exchange-id {
+          color: $default-theme-color;
+        }
+        .get-currency {
+          text-transform: uppercase;
+        }
+        .get-address {
+          word-break: break-all;
+        }
+
+      }
+      .text-info {
+        margin-bottom: 40px;
+
+        .columns {
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          flex-wrap: nowrap;
+          > .col_ {
+            flex-grow: 2;
+            width: min-content;
+            display: inline-block;
+            word-break: break-word;
+            align-self: baseline;
+
+            .title {
+              margin-bottom: 12px;
+            }
+            .text {
+              @extend %sub-text;
+            }
+          }
+          .col_.details-dest {
+            flex-grow: 1;
+            margin-left: 20px;
+          }
+        }
+
+      }
+    }
+    .status-stage {
+      display: flex;
+      justify-content: flex-start;
+      .stage {
+        margin-right: 36px;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        color: #627080;
+      }
+      .stage-icon {
+        margin-right: 8px;
+        width: 24px;
+        > img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+  .text {
+    color: $default-theme-color;
+  }
+}
+
+@media screen and (max-width: $tableWidth) {
+  .step-three {
+    .step-body {
+      .send-info-status {
+        padding: 48px;
+      }
+      .send-deatils {
+        .send-amount,
+        .send-currency {
+          font-size: 32px;
+        }
+      }
+      .send-address,
+      .payin-extra-id {
+        font-size: 20px;
+      }
+      .get-info-status {
+        padding: 48px;
+        .get-deatils {
+          font-size: 20px;
+          margin: 0;
+          line-height: 36px;
+        }
+        .text-info {
+          margin-bottom: 20px;
+        }
+      }
+      .status-stage {
+        justify-content: space-around;
+        .stage {
+          flex-direction: column;
+          align-items: flex-start;
+          margin-right: 24px;
+        }
+        .stage-icon {
+          margin: 0;
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .step-three {
+    .step-body {
+      .send-info-status {
+        padding: 8px;
+        .text-info {
+          margin: 0;
+        }
+        .qr-code-image  {
+          display: none;
+        }
+        .time-info {
+          margin-top: 16px;
+          .timer {
+            min-width: 55px;
+            font-size: 20px;
+          }
+          .payment-timer-info {
+
+            font-size: 10px;
+          }
+        }
+      }
+      .send-deatils {
+        .send-amount, .send-currency {
+          font-size: 20px;
+          line-height: 32px;
+        }
+
+      }
+      .send-address,
+      .payin-extra-id {
+        font-size: 16px;
+      }
+      .get-info-status {
+        padding: 8px;
+        .get-deatils {
+          font-size: 16px;
+          line-height: 32px;
+          margin: 0;
+        }
+        .text-info {
+          margin-bottom: 25px;
+
+          .columns {
+            margin: 0;
+            padding: 0;
+            flex-direction: column;
+            > .col_ {
+              width: 100%;
+              margin: 0 0 10px 0;
+              padding-bottom: 16px;
+              .title {
+                margin-bottom: 10px;
+              }
+            }
+          }
+        }
+
+
+      }
+      .status-stage {
+        .stage {
+          margin-right: 8px;
+          line-height: 1.5;
+        }
+        .stage-icon {
+          width: 22px;
+          > img {
+            width: 100%;
+            height: auto;
+          }
+        }
+        .stage-message {
+          font-size: 12px;
+        }
+      }
+      .payment-title {
+        display: inline-block;
+        font-size: 8px;
+      }
+    }
+  }
+}

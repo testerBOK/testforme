@@ -1,0 +1,241 @@
+@import '../vars.scss';
+
+%sub-text {
+  font-size: 16px;
+  color: #627080;
+}
+.step {
+  &.step-two {
+    display: none;
+  }
+}
+.step-two {
+
+  .payment-title {
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #929EAA;
+  }
+  .payment-deatils {
+    display: flex;
+    .send-details, .get-details {
+      font-weight: bold;
+      font-size: 40px;
+      margin: 8px 0;
+      color: $primary-color;
+      text-transform: uppercase;
+    }
+    .send-amount {
+      margin-right: 8px;
+      word-break: break-all;
+    }
+    .get-amount {
+      word-break: break-all;
+    }
+    .send-currency {
+      color: $default-theme-color;
+    }
+    .payment-direction {
+      display: flex;
+      align-items: center;
+      .payment-arrow {
+        width: 40px;
+        height: 40px;
+        margin: 0 24px;
+        > img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+    .payment-exchange-rate, .payment-exchange-address {
+      @extend %sub-text;
+    }
+    .payment-exchange-address {
+      word-break: break-all;
+    }
+  }
+  .columns {
+    margin: 32px 0;
+    padding: 32px 0;
+    border-top: 1px solid #CDD1D6;
+    border-bottom: 1px solid #CDD1D6;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    > .col_ {
+      flex-grow: 2;
+      width: min-content;
+      display: inline-block;
+      word-break: break-word;
+      align-self: baseline;
+
+      .title {
+        margin-bottom: 12px;
+      }
+      .text {
+        @extend %sub-text;
+      }
+    }
+      .col_.details-dest {
+        flex-grow: 1;
+        margin-left: 20px;
+      }
+
+  }
+  .payment-arrival {
+    display: flex;
+    flex-direction: column;
+
+    .arrival-title {
+      margin-bottom: 12px;
+    }
+    .arrival-time {
+      @extend %sub-text;
+    }
+  }
+  .payment-confirm {
+    margin-bottom: 30px;
+    .confirm-text {
+      @extend %sub-text;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      user-select: none;
+      // align-content: stretch;
+      line-height: 1.8;
+      .confirm-checkbox--body {
+        border: 1px solid $default-theme-color;
+      }
+      input[type="checkbox"]:checked + .confirm-checkbox--body {
+        background-color: $default-theme-color;
+      }
+    }
+    input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+    }
+    .confirm-checkbox--body {
+      display: inline-block;
+      width: 20px;
+      min-width: 20px;
+      height: 20px;
+      margin-right: 15px;
+      border-radius: 2px;
+      position: relative;
+      &::after {
+        content: "";
+        display: none;
+        position: absolute;
+        width: 3px;
+        height: 8px;
+        border-bottom: 0.1em solid white;
+        border-right: 0.1em solid white;
+        transform: rotate(45deg);
+        left: 7px;
+        top: 2px;
+      }
+    }
+    input[type="checkbox"]:checked + .confirm-checkbox--body {
+      &::after {
+        display: block;
+      }
+    }
+  }
+  .paymant-verification {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    .error-message-block {
+      padding: 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      color: #aaaaaa;
+      background-color: rgba($color: #d1d1d1, $alpha: 0.1);
+    }
+  }
+}
+
+@media screen and (max-width: $tableWidth) {
+  .step-two {
+    .payment-deatils {
+      .send-details, .get-details {
+        font-size: 32px;
+      }
+      .payment-exchange-rate, .payment-exchange-address {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $mobileWidth) {
+  .step-two {
+    .payment-title {
+      font-size: 8px;
+    }
+    .payment-deatils {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      .send-details, .get-details {
+        font-size: 20px;
+        margin: 4px 0;
+      }
+      .payment-exchange-rate, .payment-exchange-address {
+        font-size: 12px;
+      }
+      .payment-direction {
+        .payment-arrow {
+          width: 28px;
+          height: 28px;
+          margin: 16px 0px;
+          > img {
+            transform: rotate(90deg);
+          }
+        }
+      }
+    }
+
+    .columns {
+      margin: 16px 0;
+      padding: 0;
+      flex-direction: column;
+      text-align: center;
+      > .col_ {
+        width: 100%;
+        margin-bottom: 0;
+        padding-bottom: 16px;
+        .title {
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    .payment-arrival {
+      margin: 16px 0;
+      padding: 16px 0;
+      .arrival-title {
+        margin-bottom: 8px;
+        text-align: center;
+      }
+      .arrival-time {
+        text-align: center;
+        font-size: 12px;
+      }
+    }
+    .payment-confirm {
+      margin-bottom: 24px;
+      .confirm-text {
+        align-items: flex-start;
+        font-size: 12px;
+      }
+      .confirm-checkbox--body {
+        // margin-top: 6px;
+      }
+    }
+  }
+}
